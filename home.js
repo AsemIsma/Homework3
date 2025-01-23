@@ -5,7 +5,7 @@ function check (mainDish, sideDish, dessert, drink, saladOrSnack, chaevue) {
   let total =  (bill * chaevue) + bill;
   let totalBill = total.toFixed(2);
   
-  console.log('Ваш общий счет с чаевыми составляет $' + totalBill);
+  console.log('Ваш общий счет c чаевыми составляет $' + totalBill);
   }
   
   check(15, 10, 6, 4, 5, 0.15);
